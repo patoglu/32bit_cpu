@@ -1,0 +1,108 @@
+Restore Archived Project report for MIPS-I-TYPE
+Sat Feb 15 12:56:03 2020
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sat Feb 15 12:56:03 2020 ;
+; Revision Name                   ; MIPS-I-TYPE                           ;
+; Top-level Entity Name           ; mips_path                             ;
+; Family                          ; Cyclone III                           ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/Sushi/AppData/Local/Temp/Temp1_151044027 (13).zip/151044027/151044027.qar' into the 'C:/Users/Sushi/AppData/Local/Temp/Temp1_151044027 (13).zip/151044027/151044027_restored/' directory
+Info: Generated report 'MIPS-I-TYPE.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 300 megabytes
+    Info: Processing ended: Sat Feb 15 12:56:03 2020
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------+
+; Files Restored                                         ;
++--------------------------------------------------------+
+; File Name                                              ;
++--------------------------------------------------------+
+; MIPS-I-TYPE.qpf                                        ;
+; MIPS-I-TYPE.qsf                                        ;
+; Y32_bit_ALU.v                                          ;
+; Y32_bit_ALU_testbench.v                                ;
+; data.txt                                               ;
+; db/MIPS-I-TYPE.db_info                                 ;
+; incremental_db/compiled_partitions/MIPS-I-TYPE.db_info ;
+; lb_module.v                                            ;
+; lb_testbench.v                                         ;
+; lbu.v                                                  ;
+; lbu_testbench.v                                        ;
+; lh.v                                                   ;
+; lh_testbench.v                                         ;
+; lhu.v                                                  ;
+; lhu_testbench.v                                        ;
+; mips_control_signals.v                                 ;
+; mips_control_signals_testbench.v                       ;
+; mips_data_memory.v                                     ;
+; mips_data_path_testbench.v                             ;
+; mips_path.v                                            ;
+; mips_registers.v                                       ;
+; mux_2x1.v                                              ;
+; mux_8x1.v                                              ;
+; mux_8x1_testbench.v                                    ;
+; my_mux.v                                               ;
+; my_mux_testbench.v                                     ;
+; my_nand.v                                              ;
+; my_nand_testbench.v                                    ;
+; my_xor.v                                               ;
+; one_bit_ALU.v                                          ;
+; one_bit_ALU_testbench.v                                ;
+; registers.mem                                          ;
+; sign_extend_32.v                                       ;
+; sign_extend_32_testbench.v                             ;
+; assignment_defaults.qdf                                ;
++--------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

@@ -1,0 +1,66 @@
+module mips_testbench ();
+reg clock;
+reg [31:0]instruction;
+wire result;
+
+mips_path test(instruction,clock);
+
+initial begin clock = 0;
+end
+
+initial begin
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10010001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000101111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10010101111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10001101111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10100001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10100101111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10101101111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	#50 clock=~clock;
+	instruction = 32'b10000001111011100000000001100000;
+	
+	#50 clock=~clock; 
+	
+end
+
+
+
+
+endmodule
